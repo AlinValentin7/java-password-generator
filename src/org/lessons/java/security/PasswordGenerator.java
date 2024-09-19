@@ -18,8 +18,8 @@ public class PasswordGenerator {
 		System.out.println("inserisci il tuo anno di nascita");
 		short yearOfBirth = password.nextShort();
 		short sumBirth = (short) (dayOfBirth + mouthOfBirth + yearOfBirth);
-		String messagio = ("Ciao " + name + " la tua password e: ");
-		String passwordUtente = name+"-"+ surname + "-" + favoritColor + "-" + sumBirth ;
+		String messagio = "Ciao " + name + " la tua password e: ";
+		String passwordUtente = name + "-" + surname + "-" + favoritColor + "-" + sumBirth ;
 		System.out.println(messagio + passwordUtente);
 		
 		
